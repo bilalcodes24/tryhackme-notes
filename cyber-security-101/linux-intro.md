@@ -14,10 +14,10 @@ find - command to find any file with a file type or filename. SYNTAX: find name 
 grep - used to search content we're looking for within files. SYNTAX: grep "ABADA" /etc/ (Use -R to find recursively if information might be in multiple files)
 
 Operators:
-& - execute command in the background
-&& - execute two commands i.e 'command1 && command2' (command2 will only run if 1 succeeds)
- > - output redirectory i.e write to file (echo Hi > file)
- >> - same but appends (echo wassup >> file)
+- & - execute command in the background
+- && - execute two commands i.e 'command1 && command2' (command2 will only run if 1 succeeds)
+- > - output redirectory i.e write to file (echo Hi > file)
+- >> - same but appends (echo wassup >> file)
 
 Output w. above > and >> commands:
 cat file
