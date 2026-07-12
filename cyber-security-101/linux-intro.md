@@ -16,8 +16,8 @@ grep - used to search content we're looking for within files. SYNTAX: grep "ABAD
 Operators:
 & - execute command in the background
 && - execute two commands i.e 'command1 && command2' (command2 will only run if 1 succeeds)
-> - output redirectory i.e write to file (echo Hi > file)
->> - same but appends (echo wassup >> file)
+ > - output redirectory i.e write to file (echo Hi > file)
+ >> - same but appends (echo wassup >> file)
 
 Output w. above > and >> commands:
 cat file
