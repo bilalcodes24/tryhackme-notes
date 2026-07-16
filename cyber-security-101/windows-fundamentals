@@ -1,5 +1,10 @@
 Gave an overview of windows.
-
 Talked a bit about Remote Desktop.
-
 Current Windows server is Windows Server 2025.
+Uses NTFS (New Technology File System)
+Previously FAT16/32 (File Allocation Table) and HPFS (High Performance File System)
+NTFS is a journalling filesystem - it can repair files/folders using information previously stored in logs
+Environment variables store information about the OS, such as OS path, number of processors to be used by OS, locations of temp folders etc.
+System environment variable is %windir%
+Privileged mode for users is standard for Administator Users. User Account Control (UAC).
+Settings was first introduced with Windows 8 but Control Panel still offers more control and actions over the computer. Some Settings options also escalate to Control Panel.
