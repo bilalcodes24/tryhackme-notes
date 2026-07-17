@@ -1,4 +1,4 @@
-Gave an overview of windows.
+Gave an overview of Windows.
 Talked a bit about Remote Desktop.
 Current Windows server is Windows Server 2025.
 Uses NTFS (New Technology File System)
@@ -8,3 +8,36 @@ Environment variables store information about the OS, such as OS path, number of
 System environment variable is %windir%
 Privileged mode for users is standard for Administator Users. User Account Control (UAC).
 Settings was first introduced with Windows 8 but Control Panel still offers more control and actions over the computer. Some Settings options also escalate to Control Panel.
+
+---END OF PART 1
+
+System Configuration (MSConfig)
+Windows servers do not handle start up apps like Windows clients do
+To view them:
+- Win + R
+- Type shell:startup
+Windows uses an extra paging file as VRAM when the physical RAM becomes full to prevent delays and slowdown
+To view/modify the page file:
+- View advanced system settings -> System Properties 
+- Navigate to Advanced tab
+- Click Settings under Performance tab
+Windows creates a crash dump file when it encounters an error like the BSOD
+You can find its settings in Startup and Recovery
+You can change UAC settings
+* perfmon (Performance Monitor utility)
+Learned about Computer Management (compmgmt) utility
+^ Features important system tools like Task Scheduler, Event Viewer, Services and Applications etc
+System Information (msinfo.exe) tool
+* resmon (Resource Monitoring tool)
+CLI interaction shown using Command Prompt
+Some commands:
+- hostname
+- whoami
+- ipconfig -- ipconfig/all for detailed information
+to access manual for a command, write command followed by /?
+- cls to clear screen
+- netstat (can be used with some parameters appended)
+- net command uses to manage network resources - net help for manual
+Learned about Windows Registery, used to configure a system for multiple user profiles, applications, devices -> can be used to install applications or the files/folders apps create or modify in cyber attacks (Advanced)
+
+
