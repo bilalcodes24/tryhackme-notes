@@ -7,6 +7,6 @@ Resources over the Internet the help in the field:
 - Common Vulnerabilities and Exposues (CVE): a database on essentially all known vulnerablities w. their details, patches etc, each with a unique identifier that also applies to GitHub repositories about the same vulneribility
 - Technical documentation like Linus MANual pages for terminal commands have every detail on what commands do and how they work
 
-// side note: I got sent a malicious phishing link over text today and it had several red flags with the most major being an unverified domain. Used VirusTotal to scan it and it was found to be malicious by one vendor
-Checked device permissions and downloads on the phone the link was opened
-So far, no IOCs
+** side note: I got sent a malicious phishing link over text today and it had several red flags with the most major being an unverified '.cc' domain. Used VirusTotal to scan it and it was flagged as malicious by one security vendor.
+After it failed to load, I checked affected devices by viewing permissions, installed apps and downloads on the phone
+So far, no IOCs on affected devices
