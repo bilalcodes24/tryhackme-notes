@@ -17,4 +17,9 @@ reminder of IP addresses, in this case IPv4 addresses - 4 octets that each repre
 - private IPs: 
 10/8 meaning 10.0.0.0
 172.16/12 meaning 172.16.0.0192.168/16 meaning 192.168.0.0
-
+- routing handles how many routers a data packet passes through before making it to it's final destination (important because more hops can mean more chances of compromise to the C, I or A of data)
+- UDP (User Datagram Protocol) -> connectionless layer 4 protocol, when data is required to be delivered quickly without confirmation
+- TCP (Transmission Control Protocol) has more complex mechanisms in place i.e. transmission does not take place until a connection is established. The three-way handshake helps with that:-
+  1. SYN packet sent by client
+  2. SYN-ACK packet sent my server to client
+  3. ACK packet sent to server
